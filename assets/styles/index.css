@@ -1,0 +1,65 @@
+:root {
+    font-size: 100px;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #f3e5d8;
+}
+.pb-15 {
+    padding-bottom: 15px;
+}
+.pb-25 {
+    padding-bottom: 25px;
+}
+.pt-25 {
+    padding-top: 25px;
+}
+#container {
+    max-width: 720px;
+    margin: auto;
+    padding: 35px; 
+    background-color: #fff;
+    border-radius: 45px;
+    font-family: 'Outfit Thin';
+    font-size: 0.18rem;
+}
+#container h2 {
+    color: #803f33;
+}
+#ingredients #image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+.list_item {
+    list-style-position: inside;
+    line-height: 30px;
+}
+.list_item > li::marker {
+    color: #803f33;
+    font-weight: 900;
+}
+.list_item > li > span {
+    font-weight: 600;
+    padding-left: 10px;
+}
+#preparation_container {
+    background-color: #edc9d4b2;
+    border-radius: 10px;
+    padding: 20px;
+}
+.nutrition_table_row {
+    width: 100%;
+    display: flex;
+    padding: 15px 0;
+    border-bottom: 1px solid #d8d8d8;
+}
+.nutrition_table_row_key, .nutrition_table_row_value {
+    flex: 1;
+}
+.nutrition_table_row_value {
+    font-weight: 900;
+    color: #803f33;
+}
